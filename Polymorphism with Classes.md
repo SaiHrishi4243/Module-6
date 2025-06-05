@@ -27,6 +27,36 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 
 ## 💻 Program
 
+```python
+class Beans:
+    def type(self):
+        print("Vegetable")
+    def color(self):
+        print("Green")
+
+class Mango:
+    def type(self):
+        print("Fruit")
+    def color(self):
+        print("Yellow")
+
+def func(obj):
+    obj.type()
+    obj.color()
+
+b = Beans()
+m = Mango()
+
+func(b)
+func(m)
+
+
+```
+
 ## Output
 
+![image](https://github.com/user-attachments/assets/9d9aa1cb-70a2-42be-8b4f-f8d84d46368f)
+
 ## Result
+
+Thus implemented the python program to exercise polymorphism with classes.
